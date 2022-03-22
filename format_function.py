@@ -15,4 +15,4 @@ print("Kaydedildi.")
 
 time.sleep(2)
 
-print( "Oyuncu Adı:" , informatins[0] , "\nOyuncunun soyadı:" , informatins[1] , "\nOyuncunun takımı:" , informatins[2] )
+print( "Oyuncu Adı:{} \nOyuncunun soyadı:{} \nOyuncunun takımı:{}" .format(informatins[0],informatins[1],informatins[2]))
